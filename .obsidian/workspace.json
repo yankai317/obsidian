@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4710c32cd125e15b",
+        "id": "c0995edb0006e46e",
         "type": "tabs",
         "children": [
           {
-            "id": "aed5e97c2b888969",
+            "id": "de76b36a81481e43",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: .gitignore"
             }
           }
         ]
@@ -170,13 +174,43 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "4ef9b95df1aced34",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          },
+          {
+            "id": "d1221cc6292fbaef",
+            "type": "leaf",
+            "state": {
+              "type": "smtcmp-chat-view",
+              "state": {},
+              "icon": "wand-sparkles",
+              "title": "Smart composer chat"
+            }
+          },
+          {
+            "id": "c4be20da0c7d39e7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,47 +224,46 @@
       "command-palette:打开命令面板": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "periodic-notes:Open today": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "c7e60f86fc600b6e",
+  "active": "c4be20da0c7d39e7",
   "lastOpenFiles": [
-    "Readwise/Articles/28705761-陈胜：美团搜索排序实践@annote.md",
-    "_excalidraw/Drawing 2025-07-04 11.03.14.excalidraw.md",
-    "_excalidraw/Drawing 2025-07-04 10.54.32.excalidraw.md",
-    "_excalidraw/智能体框架设计 2025-07-04 10.54.56.excalidraw.md",
-    "aicode/智能体框架设计.md",
     "未命名.canvas",
-    "Readwise/Full Document Contents/Tweets/# Scheduling Workloads to Run on Humans.md",
-    "Readwise/Full Document Contents/Tweets/⚡️This is the most fun project!.md",
-    "Readwise/Full Document Contents/Books/A System for Writing.md",
-    "Readwise/Full Document Contents/Articles/“-1到1”，银泰数字化的方法论.md",
-    "Readwise/Articles/27974672-Prompt Engineering@annote.md",
-    "Readwise/Articles/22962006-推荐系统之排序算法合集@annote.md",
-    "Readwise/Articles/33296270-2023年，如何看待搜广推算法行业前景？@annote.md",
-    "Readwise/Articles/33296238-State of GPT A Programmer's Perspective@annote.md",
-    "Readwise/Articles/33279092-Cross-Domain Product Representation Learning for Rich-Content E-Commerce@annote.md",
-    "Readwise/Articles/33271679-一文梳理推荐系统中如何应用大模型@annote.md",
-    "Readwise/Articles/33269920-字节跳动李航：对语言大模型的若干观察和思考@annote.md",
-    "日报/2025-06-12.md",
-    "Readwise/Full Document Contents/Articles/公元1000年：宋代如何走出五代阴影？.md",
-    "Readwise/Full Document Contents/Articles/如何从零开始训练大模型（minicpm分享&讨论）.md",
-    "Readwise/Full Document Contents/Articles/Arc 浏览器创始人深度复盘：Arc 没有失败，但它注定成不了 AI 时代的 Chrome.md",
-    "Readwise/Full Document Contents/Articles/什么是架构，架构的关键设计原则是什么？.md",
-    "Readwise/Full Document Contents/Articles/字节跳动基于 Iceberg 的海量特征存储实践.md",
-    "Readwise/Full Document Contents/Articles/Evaluating LLM Outputs.md",
-    "Readwise/Full Document Contents/Articles/How to do things if you're not that smart and don't have any talent.md",
-    "Readwise/Full Document Contents/Articles/可信实验白皮书系列01：从0到1的方法论与实践指南.md",
-    "Readwise/Full Document Contents/Articles/Serving TensorFlow models with TFServing.md",
-    "Readwise/Full Document Contents/Books",
+    "aicode/智能体框架设计.md",
+    "Readwise/Articles/41127996-Brain Food Chalkboard Decisions@annote.md",
+    "Readwise/Full Document Contents/Articles/Brain Food Chalkboard Decisions.md",
+    "Readwise/Articles/41127559-第179期 - 喜贡爆炒@annote.md",
+    "Readwise/Full Document Contents/Articles/第179期 - 喜贡爆炒.md",
+    "Readwise/Tweets/41097220-We Are One Step Closer T...@annote.md",
+    "Readwise/Articles/41086827-与 CodeQwen1.5 结对编程@annote.md",
+    "Readwise/Full Document Contents/Articles/与 CodeQwen1.5 结对编程.md",
+    "Readwise/Articles/41086203-【rlhf】rl 究竟是如何与 LLM 做结合的？@annote.md",
+    "Readwise/Full Document Contents/Articles/【rlhf】rl 究竟是如何与 LLM 做结合的？.md",
+    "Readwise/Articles/41086015-为什么需要rlhf？sft不够吗？@annote.md",
+    "Readwise/Full Document Contents/Articles/为什么需要rlhf？sft不够吗？.md",
+    "Readwise/Articles/41085704-Successful Language Model Evals@annote.md",
+    "Readwise/Full Document Contents/Articles/Successful Language Model Evals.md",
+    "Readwise/Articles/41084113-大模型工具调用(function Call)原理及实现@annote.md",
+    "Readwise/Full Document Contents/Articles/大模型工具调用(function Call)原理及实现.md",
+    "Readwise/Articles/41083841-Interpreting Image Edit Instructions Meta’s Emu Edit Improves Text-to-Image Generation With Task Classification. Meta 的 Emu Edit 通过任务分类提升文本到图像生成效果。@annote.md",
+    "Readwise/Full Document Contents/Articles/Interpreting Image Edit Instructions Meta’s Emu Edit Improves Text-to-Image Generation With Task Classification. Meta 的 Emu Edit 通过任务分类提升文本到图像生成效果。.md",
+    "Readwise/Tweets/41083771-Last Week, With the Anno...@annote.md",
+    "Readwise/Articles/41068320-Integration with LlamaIndex​@annote.md",
+    "Readwise/Full Document Contents/Articles/Integration with LlamaIndex​.md",
+    "Readwise/Articles/41067976-Codestral Hello, World!@annote.md",
+    "Readwise/Full Document Contents/Articles/Codestral Hello, World!.md",
+    "Readwise/Articles/41067136-如何看待 DeepSeek 发布的 MoE 大模型 DeepSeek-V2？@annote.md",
+    "Readwise/Full Document Contents/Articles/如何看待 DeepSeek 发布的 MoE 大模型 DeepSeek-V2？.md",
     "Readwise/Full Document Contents/Tweets",
     "Readwise/Tweets",
+    "Readwise/Books",
+    "Readwise/Full Document Contents/Books",
     "Readwise/Articles",
     "Readwise/Full Document Contents/Articles",
     "Readwise/Full Document Contents",
     "Readwise",
-    "Readwise/Books",
     "_excalidraw",
     "__MACOSX",
     "未命名 1.canvas",
