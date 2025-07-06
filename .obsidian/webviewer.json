@@ -1,8 +1,0 @@
-{
-  "openExternalURLs": false,
-  "enableAdblocking": true,
-  "customSearchEngine": "https://metaso.cn/?q=%s",
-  "searchEngine": "custom",
-  "markdownPath": "03_Resources/Obsidian",
-  "homepage": "metaso.cn"
-}
