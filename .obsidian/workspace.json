@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "83ed10a2def3854f",
+    "id": "14e1971d79938a36",
     "type": "split",
     "children": [
       {
-        "id": "1f1204a72e27c1cd",
+        "id": "4710c32cd125e15b",
         "type": "tabs",
         "children": [
           {
-            "id": "70c518f95398d9db",
+            "id": "aed5e97c2b888969",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "新标签页"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "8bc3212e625931fc",
+    "id": "0b0b7b1973c41530",
     "type": "split",
     "children": [
       {
-        "id": "5503eaadb55aae41",
+        "id": "2fb53f0c2334684c",
         "type": "tabs",
         "children": [
           {
-            "id": "0712f22b2cb22efd",
+            "id": "ca387ba7bda6e8b8",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,11 +40,11 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
-            "id": "c5c80707d9d05ec8",
+            "id": "d8b6e8ea629bfbe1",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,17 +57,17 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           },
           {
-            "id": "c58c845a92009225",
+            "id": "dae0ce8e3e8aeeb6",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "书签"
             }
           }
         ]
@@ -81,20 +77,20 @@
     "width": 300
   },
   "right": {
-    "id": "1bac5f7cb6bc4ce2",
+    "id": "acd322f794dea697",
     "type": "split",
     "children": [
       {
-        "id": "227e57553541e8df",
+        "id": "30d0b00e24ddeac2",
         "type": "tabs",
         "children": [
           {
-            "id": "8dfe06dca9f87729",
+            "id": "5a489a5eb5fd6c80",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "未命名.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +100,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "未命名 的反向链接列表"
             }
           },
           {
-            "id": "1985af2904b09da1",
+            "id": "cd1f8496da7791c1",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "未命名.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "未命名 的出链列表"
             }
           },
           {
-            "id": "729d146e57b6a676",
+            "id": "ec8db0a9ca3d536c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,55 +129,111 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "标签"
             }
           },
           {
-            "id": "7cb57817047a0019",
+            "id": "90af93c31e27f6f2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
+                "file": "未命名.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "未命名 的大纲"
             }
           },
           {
-            "id": "cb76faeae84e6bad",
+            "id": "e73ae6cd1082544b",
             "type": "leaf",
             "state": {
-              "type": "git-view",
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "9771ed47096368b0",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "smart-composer:Open smart composer": false,
+      "copilot:Open Copilot Chat": false,
+      "workspaces:管理工作区布局": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "periodic-notes:Open today": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0712f22b2cb22efd",
+  "active": "c7e60f86fc600b6e",
   "lastOpenFiles": [
-    "测试.canvas",
-    "Welcome.md"
+    "Readwise/Articles/28705761-陈胜：美团搜索排序实践@annote.md",
+    "_excalidraw/Drawing 2025-07-04 11.03.14.excalidraw.md",
+    "_excalidraw/Drawing 2025-07-04 10.54.32.excalidraw.md",
+    "_excalidraw/智能体框架设计 2025-07-04 10.54.56.excalidraw.md",
+    "aicode/智能体框架设计.md",
+    "未命名.canvas",
+    "Readwise/Full Document Contents/Tweets/# Scheduling Workloads to Run on Humans.md",
+    "Readwise/Full Document Contents/Tweets/⚡️This is the most fun project!.md",
+    "Readwise/Full Document Contents/Books/A System for Writing.md",
+    "Readwise/Full Document Contents/Articles/“-1到1”，银泰数字化的方法论.md",
+    "Readwise/Articles/27974672-Prompt Engineering@annote.md",
+    "Readwise/Articles/22962006-推荐系统之排序算法合集@annote.md",
+    "Readwise/Articles/33296270-2023年，如何看待搜广推算法行业前景？@annote.md",
+    "Readwise/Articles/33296238-State of GPT A Programmer's Perspective@annote.md",
+    "Readwise/Articles/33279092-Cross-Domain Product Representation Learning for Rich-Content E-Commerce@annote.md",
+    "Readwise/Articles/33271679-一文梳理推荐系统中如何应用大模型@annote.md",
+    "Readwise/Articles/33269920-字节跳动李航：对语言大模型的若干观察和思考@annote.md",
+    "日报/2025-06-12.md",
+    "Readwise/Full Document Contents/Articles/公元1000年：宋代如何走出五代阴影？.md",
+    "Readwise/Full Document Contents/Articles/如何从零开始训练大模型（minicpm分享&讨论）.md",
+    "Readwise/Full Document Contents/Articles/Arc 浏览器创始人深度复盘：Arc 没有失败，但它注定成不了 AI 时代的 Chrome.md",
+    "Readwise/Full Document Contents/Articles/什么是架构，架构的关键设计原则是什么？.md",
+    "Readwise/Full Document Contents/Articles/字节跳动基于 Iceberg 的海量特征存储实践.md",
+    "Readwise/Full Document Contents/Articles/Evaluating LLM Outputs.md",
+    "Readwise/Full Document Contents/Articles/How to do things if you're not that smart and don't have any talent.md",
+    "Readwise/Full Document Contents/Articles/可信实验白皮书系列01：从0到1的方法论与实践指南.md",
+    "Readwise/Full Document Contents/Articles/Serving TensorFlow models with TFServing.md",
+    "Readwise/Full Document Contents/Books",
+    "Readwise/Full Document Contents/Tweets",
+    "Readwise/Tweets",
+    "Readwise/Articles",
+    "Readwise/Full Document Contents/Articles",
+    "Readwise/Full Document Contents",
+    "Readwise",
+    "Readwise/Books",
+    "_excalidraw",
+    "__MACOSX",
+    "未命名 1.canvas",
+    "未命名 2.canvas"
   ]
 }

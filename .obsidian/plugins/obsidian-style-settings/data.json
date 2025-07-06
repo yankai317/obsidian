@@ -1,0 +1,9 @@
+{
+  "minimal-style@@bold-color@@light": "#FF9F19",
+  "minimal-style@@italic-color@@light": "#09B940",
+  "minimal-style@@maximize-tables-off": "maximize-tables-off",
+  "blue-topaz-theme@@bt-status-on": true,
+  "blue-topaz-theme@@file-line-width": 80,
+  "blue-topaz-theme@@accent-strong@@light": "#FFA500",
+  "blue-topaz-theme@@justify-align": true
+}
